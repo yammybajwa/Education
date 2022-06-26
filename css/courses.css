@@ -1,0 +1,22 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*Courses Page Css*/
+.navul{
+	list-style: none;
+	display: flex;
+	flex-wrap: wrap;
+}
+.navul li{
+	display: block;
+}
+.navul li a{
+	padding: 5px 10px;
+	text-decoration: none;
+	color: var(--red);
+}
+
+.navul li a:hover{
+	color: var(--white) !important;
+	background-color: var(--red);
+}

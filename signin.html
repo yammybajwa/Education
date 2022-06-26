@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Signin Page</title>
+   <!-- Favicon -->
+	<link rel="shortcut icon" href="asset/icons/favicon.svg" type="image/x-icon">
+	<!-- CSS Pages -->
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+</head>
+<body>
+
+    <section>
+        <div class="p-3">
+            <div class="col-lg-6 mx-auto border p-3 mt-4">
+                <h1 class="red heading1 text-center my-3">SignIn</h1>
+                <form action="" method="post">
+                    <div class="row">
+                        <div class="col-lg-6 col-md-6">
+                            <label for="" class="mb-2 fw-bold">First Name</label>
+                            <input type="text" class="form-control" placeholder="Jon" required>
+                        </div>
+                        <div class="col-lg-6 col-md-6">
+                            <label for="" class="mb-2 fw-bold">Last Name</label>
+                            <input type="text" class="form-control" placeholder="Doe" required>
+                        </div>
+                    </div>
+
+                    <div class="my-3">
+                        <div>
+                            <label for="" class="me-2 fw-bold">Gender</label>
+                        </div>
+                        <div>
+                            <input type="radio" name="gender" class="mx-1" required><label for="" class="me-2">Male</label>
+                            <input type="radio" name="gender" class="mx-1"><label for="" class="me-2">Female</label>
+                            <input type="radio" name="gender" class="mx-1"><label for="" class="me-2">Other</label>
+                        </div>
+                        
+                    </div>
+                    <div class="my-3">
+                        <input type="email" placeholder="Email" class="form-control" required>
+                    </div>
+
+                    <div class="my-3">
+                        <input type="number" placeholder="Number" class="form-control">
+                    </div>
+
+                    <div class="my-3">
+                        <input type="password" placeholder="Password"  class="form-control"
+						pattern="^(?=.*[a-z])(?=.*[A-Z])(?=.*[0-9])(?=.*[!@#$%^&*_=+-]).{8,}$"  required>
+                    </div>
+
+                    <div class="my-3">
+                        <input type="password" placeholder="Confirm Password" class="form-control" pattern="^(?=.*[a-z])(?=.*[A-Z])(?=.*[0-9])(?=.*[!@#$%^&*_=+-]).{8,}$" required >
+                    </div>
+
+                    <button class="button col-12">SIGN IN</button>
+
+                    <p class="my-3">Already have an Account? <a href="login.html" class="red ms-3">LOG IN</a></p>
+                </form>
+            </div>
+        </div>
+    </section>
+
+
+
+    <script src="js/bootstrap.min.js"></script>
+</body>
+</html>

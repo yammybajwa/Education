@@ -1,0 +1,27 @@
+File Used in Website:
+
+Bootstrap 5
+	1-Bootstrap.min.css
+	2-Bootstrap.min.js
+
+Main Style Sheet
+	Style.css
+	
+Jquery 3.6.0
+	1-jquery-3.6.0.min.js
+
+For Slider Owl Caurosel 2 Used
+	1-owl.carousel.css
+	2-owl.theme.default.css
+	3-owl.carousel.js
+
+For Animation
+	1-animate.min.css
+	Classes Used For Animation in in this File
+	2-animation.css
+
+For Number Increase Automatically
+	1-jquery.waypoints.js
+	1-jquery.counterup.js 
+
+	

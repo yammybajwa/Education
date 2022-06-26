@@ -1,0 +1,61 @@
+/*Animation FIle*/
+
+
+
+/*ZoomIn Animation*/
+.zoomIn {
+  display: inline-block;
+
+  animation: zoomIn; /* referring directly to the animation's @keyframe declaration */
+  animation-duration: 2s; /* don't forget to set a duration! */
+
+}
+
+/*Slide Left Animation*/
+.slideInLeft {
+  display: inline-block;
+  margin: 0 0.5rem;
+
+  animation: slideInLeft; /* referring directly to the animation's @keyframe declaration */
+  animation-duration: 1s; /* don't forget to set a duration! */
+
+  animation-delay: 2s;
+}
+
+
+/*Slode Right Animation*/
+.slideInRight {
+  display: inline-block;
+  margin: 0 0.5rem;
+
+  animation: slideInRight; /* referring directly to the animation's @keyframe declaration */
+  animation-duration: 1s; /* don't forget to set a duration! */
+
+  animation-delay: 2s;
+
+}
+
+/*FlipInX Animation*/
+.flipInX {
+  display: inline-block;
+  margin: 0 0.5rem;
+
+  animation: flipInX; /* referring directly to the animation's @keyframe declaration */
+  animation-duration: 1s; /* don't forget to set a duration! */
+
+  animation-delay: 2s;
+  animation-iteration-count: 2;
+
+}
+/*BounceInRight Animation*/
+.bounceInRight {
+  display: inline-block;
+  margin: 0 0.5rem;
+
+  animation: slideInRight; /* referring directly to the animation's @keyframe declaration */
+  animation-duration: 1s; /* don't forget to set a duration! */
+
+  animation-delay: 2s;
+
+
+}

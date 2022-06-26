@@ -1,0 +1,783 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page 2</title>
+	<!-- Favicon -->
+	<link rel="shortcut icon" href="asset/icons/favicon.svg" type="image/x-icon">
+	<!-- CSS Pages -->
+	<link rel="stylesheet" href="css/index.css">
+	<link rel="stylesheet" href="css/style2.css">
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+<!--	jQuery Files-->
+	
+
+<!--	CounterUp jQuery Files-->
+	<script src="jquery/jquery-3.6.0.min.js"></script>
+	<script src="jquery/jquery.counterup.js"></script>
+	<script src="jquery/jquery.waypoints.js"></script>
+	
+	
+	
+
+</head>
+<body onload="loader()">
+
+	<!-- Loader Div Start -->
+	<div id="loading"></div>
+	<!-- Loader Div End -->
+
+	
+	<header>
+		<!--	Navbar Start	-->
+		
+		<nav class="navbar navbar-expand-lg navbar-light bgred fixed-top">
+			<div class="container">
+				<a class="navbar-brand white nav-link" href="index.html">EduHub</a>
+				<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="collapse navbar-collapse" id="navbarSupportedContent">
+					<ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+						<li class="nav-item dropdown">
+							<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+							  Home Page
+							</a>
+							<ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+							  <li><a class="dropdown-item" href="index.html" >Home Page 1</a></li>
+							  <li><a class="dropdown-item" href="index2.html">Home Page 2</a></li>
+							  <li><a class="dropdown-item" href="index3.html">Home Page 3</a></li>
+							</ul>
+						  </li>
+						<li class="nav-item dropdown">
+							<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+							  About Page
+							</a>
+							<ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+							  <li><a class="dropdown-item" href="choose.html" >Why Choose Us</a></li>
+							  <li><a class="dropdown-item" href="mission.html">Our Mission</a></li>
+							  <li><a class="dropdown-item" href="affiliation.html">Affiliation</a></li>
+							  <li><a class="dropdown-item" href="message.html">Message Us</a></li>
+							  <li><a class="dropdown-item" href="FAQs.html">FAQs</a></li>
+							</ul>
+						  </li>
+						
+						<li class="nav-item dropdown">
+							<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+							  Courses
+							</a>
+							<ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+							  <li><a class="dropdown-item" href="courses.html">Course Page 1</a></li>
+							  <li><a class="dropdown-item" href="courses2.html">Course Page 2</a></li>
+							  <li><hr class="dropdown-divider"></li>
+							  <li><a class="dropdown-item" href="subcourses.html">Detail Course Page 1</a></li> 
+							  <li><a class="dropdown-item" href="subcourses2.html">Detail Course Page 2</a></li> 
+							  <li><a class="dropdown-item" href="subcourses3.html">Detail Course Page 3</a></li> 
+							</ul>
+						  </li>
+						
+						  <li class="nav-item dropdown">
+							<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+							  Blog
+							</a>
+							<ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+							  <li><a class="dropdown-item" href="blog.html">Blog Page 1</a></li>
+							  <li><a class="dropdown-item" href="blog2.html">Blog Page 2</a></li>
+							  <li><a class="dropdown-item" href="blog3.html">Blog Page 3</a></li>
+							  <li><hr class="dropdown-divider"></li>
+							  <li><a class="dropdown-item" href="subblog.html">Detail Blog Page 1</a></li> 
+							  <li><a class="dropdown-item" href="subblog2.html">Detail Blog Page 2</a></li> 
+							  <li><a class="dropdown-item" href="subblog3.html">Detail Blog Page 3</a></li> 
+							</ul>
+						  </li>
+						
+						  <li class="nav-item dropdown">
+							<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+							  Event
+							</a>
+							<ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+							  <li><a class="dropdown-item" href="event.html">Event Page 1</a></li>
+							  <li><a class="dropdown-item" href="event2.html">Event Page 2</a></li>
+							  <li><a class="dropdown-item" href="event3.html">Event Page 2</a></li>
+							  <li><hr class="dropdown-divider"></li>
+							  <li><a class="dropdown-item" href="subevent.html">Event Detail Page 1</a></li> 
+							  <li><a class="dropdown-item" href="subevent2.html">Event Detail Pag 2</a></li> 
+							  <li><a class="dropdown-item" href="subevent3.html">Event Detail Pag 3</a></li> 
+	
+							</ul>
+						  </li>
+						
+						<li class="nav-item">
+							<a class="nav-link" href="contact.html">Contact</a>
+						</li>
+	
+						<li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                              Gallery
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                              <li><a class="dropdown-item" href="gallery.html" >Gallery 1</a></li>
+                              <li><a class="dropdown-item" href="gallery2.html">Gallery 2</a></li>
+                              <li><a class="dropdown-item" href="Gallery3.html">Gallery 3</a></li>
+                            </ul>
+                        </li>
+						
+					</ul>
+	
+					<ul  class="navbar-nav mb-2 mb-lg-0">
+						<li class="nav-item">
+							<a class="nav-link fadeOut" href="login.html">Login<img src="asset/icons/login.svg" alt="" class="icon bgred px-1"></a>
+						</li>
+						
+						<li class="nav-item">
+							<a class="nav-link" href="signin.html">Signin<img src="asset/icons/signin.svg" alt="" class="icon bgred px-1"></a>
+						</li>
+					</ul>
+			  </div>
+			</div>
+		  </nav>
+		<!--	Navbar End	-->
+		
+		
+		<!--	Home Main Image Start	-->
+		<section>
+						<div class="section1">
+				<div class="container">
+					<div class="row">
+						<div class="col-lg-6">
+							<div class="pt300 container head">
+								<h1 class="heading1 swing ">To get Success</h1>
+								<p class="white">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Mollitia fuga doloribus, laborum laudantium in necessitatibus iure dicta molestiae, error, quas vitae. Dolorem natus beatae, ducimus itaque alias voluptas eos culpa?</p>
+								<div class="my-5">
+									<a href="courses.html">
+										<button class="button me-2 slideInLeft my-2">View Course</button>
+									</a>
+									<a href="about.html">
+										<button class="button slideInRight my-2">About Us</button>
+									</a>
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-6 d-none d-md-block">
+							<div  class="pt200 container">
+								<form action="" method="post" class="bgwhite p-5 rounded">
+									<h1>Register Now</h1>
+
+									<div class="my-3">
+										<input type="text" placeholder="Full Name" class="form-control">
+									</div>
+									
+									<div class="my-3">
+										<input type="email" placeholder="Email" class="form-control">
+									</div>
+									
+									<div class="my-3">
+										<input type="password" placeholder="Password" class="form-control" required>
+									</div>
+
+									<div class="my-3">
+										<input type="password" placeholder="Confirm Password" class="form-control" required>
+									</div>
+									
+									<button class="button col-12">Send</button>
+								</form>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+		</section>
+		<!--	Home Main Image End	-->
+		
+    </header>
+<!--	Section 2 Start-->
+	<section>
+		<div class="container">
+			<div class="row">
+				
+				<div class="col-lg-6 mt-3">
+					<div class="p-lg-5 p-md-2">
+						<img src="asset/images/Home/image6.jpg" alt="" class="w-100">
+					</div>
+				</div>
+                <div class="col-lg-6">
+					<div class="p-lg-5 p-md-2 my-5">
+						<h3 class="heading2 black">we are <span class="red">Eduhub</span></h3>
+						<p class="paragraph">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit dolor quis aliquam voluptate magnam eveniet dolores quasi cupiditate sapiente illo rem, perspiciatis, sit, voluptas. A alias architecto non delectus quas.</p>
+						<a href="courses.html">
+							<button class="button mt-3">Get Started Now</button>
+						</a>
+					</div>
+					
+				</div>
+			</div>
+		</div>
+	</section>
+<!--	Section 2 End-->
+	
+
+	
+<!--	section 4 Strat-->
+	<section class="section4">
+		<div class="container">
+			<h1 class="heading2 text-center my-5">Latest Courses</h1>
+			<!-- <p class="text-center">
+				<img src="asset/icons/hat white.svg" alt="Hat Icon" width="50px" class="mb-3">
+			</p> -->
+			<div class="row mx-auto">
+				<div class="col-lg-4 my-3">
+					<div >
+						<img src="asset/images/Courses/4.jpg" alt="" class="w-100">
+						<div class="px-3 bgwhite py-3 rounded-bottom">
+							<div class="d-flex ">
+								<img src="asset/images/Home/iconimg.jpg" alt="" width="60px" height="60px" class="rounded-circle">
+								<div class="ms-3">
+									<p class="red fw-bold">Jon Doe</p>
+									<p class="fw-bolder">
+										<a href="#" class="text-decoration-none">Web Developer with Node.JS</a>
+									</p>
+								</div>
+							</div>
+							<p class="paragraph">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto, nobis, excepturi? asperiores. Sunt quasi sit optio.</p>
+							<div class="text-center">
+	                        	<a href="courses.html">
+		                            <button class="button">View Now</button>
+		                        </a>
+	                        </div>
+							
+						</div>
+						
+					</div>
+				</div>
+				
+				<div class="col-lg-4 my-3">
+					<div >
+						<img src="asset/images/Courses/5.jpg" alt="" class="w-100">
+						<div class="px-3 bgwhite py-3 rounded-bottom">
+							<div class="d-flex ">
+								<img src="asset/images/Home/iconimg.jpg" alt="" width="60px" height="60px" class="rounded-circle">
+								<div class="ms-3">
+									<p class="red fw-bold">Jon Doe</p>
+									<p class="fw-bolder">
+										<a href="#" class="text-decoration-none">Adobe Photoshop</a>
+									</p>
+								</div>
+							</div>
+							<p class="paragraph">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto, nobis, excepturi? asperiores. Sunt quasi sit optio.</p>
+							<div class="text-center">
+	                        	<a href="courses.html">
+		                            <button class="button">View Now</button>
+		                        </a>
+	                        </div>
+							
+						</div>
+						
+					</div>
+				</div>
+				
+				<div class="col-lg-4 my-3">
+					<div >
+						<img src="asset/images/Courses/3.jpg" alt="" class="w-100">
+						<div class="px-3 bgwhite py-3 rounded-bottom">
+							<div class="d-flex ">
+								<img src="asset/images/Home/iconimg.jpg" alt="" width="60px" height="60px" class="rounded-circle">
+								<div class="ms-3">
+									<p class="red fw-bold">Jon Doe</p>
+									<p class="fw-bolder">
+										<a href="#" class="text-decoration-none">PHP Advance Level</a>
+									</p>
+								</div>
+							</div>
+							<p class="paragraph">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto, nobis, excepturi? ]asperiores. Sunt quasi sit optio.</p>
+							<div class="text-center">
+	                        	<a href="courses.html">
+		                            <button class="button">View Now</button>
+		                        </a>
+	                        </div>
+							
+						</div>
+						
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+<!--	section 4 End-->
+
+<!--	Section 3 Start-->
+<section>
+    <div class="container-fluid">
+        <div class="row my-5">
+            <div class="col-lg-2 col-md-4 col-sm-6 bgred">
+                <div class="text-center">
+                    <img src="asset/icons/branch.svg" alt="" class="w-25 my-3">
+                    <p class="heading2 count">2017</p>
+<!--						<h1>2015</h1>-->
+                    <h5 class="white">Year of Establish</h5>
+                </div>
+            </div>
+            
+            <div class="col-lg-2 col-md-4 col-sm-6 bgblue">
+                <div class="text-center">
+                    <img src="asset/icons/laboratory.svg" alt="" class="w-25 my-4">
+                    <p class="heading2"><span class="count">2500</span>+</p>
+                    <h5 class="white">Spelized Traning</h5>
+                </div>
+            </div>
+            
+            <div class="col-lg-2 col-md-4 col-sm-6 bggreen">
+                <div class="text-center">
+                    <img src="asset/icons/student.svg" alt="" class="w-25 my-4">
+                    <p class="heading2"><span class="count">5000</span>+</p>
+                    <h5 class="white">Students</h5>
+                </div>
+            </div>
+            
+            <div class="col-lg-2 col-md-4 col-sm-6 bgorange">
+                <div class="text-center">
+                    <img src="asset/icons/award.svg" alt="" class="w-25 my-4">
+                    <p class="heading2"><span class="count">120</span>+</p>
+                    <h5 class="white">Award</h5>
+                </div>
+            </div>
+            
+            <div class="col-lg-2 col-md-4 col-sm-6 bgpink">
+                <div class="text-center">
+                    <img src="asset/icons/diamond.svg" alt="" class="w-25 my-4">
+                    <p class="heading2"><span class="count">450</span>+</p>
+                    <h5 class="white">Cetified Teacher</h5>
+                    <p></p>
+                </div>
+            </div>
+            
+            <div class="col-lg-2 col-md-4 col-sm-6 bgpurple">
+                <div class="text-center">
+                    <img src="asset/icons/literature.svg" alt="" class="w-25 my-4">
+                    <p class="heading2"><span class="count">1500</span>+</p>
+                    <h5 class="white">Books & Library</h5>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+</section>
+<!--	Section 3 End-->
+
+	
+<!--	Section 5 Start		-->
+	<section>
+		<div>
+			<div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+  				<div class="carousel-indicators">
+    				<button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    				<button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    				<button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  				</div>
+  				<div class="carousel-inner">
+    				<div class="carousel-item active bggreen py-5">
+						<div class="row container mx-auto">
+                            <div class="col-lg-6 my-5">
+								<div class="sliderdiv d-flex justify-content-center">
+                                    <img src="asset/images/Home/image2.jpg" class="w-75" alt="Slider Image 1">
+                                </div>
+							</div>
+							<div class="col-lg-6 my-5 pt-lg-5">
+								<div>
+									<h1 class="heading2">Quaid-e-Azam</h1>
+									<p class="white">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur magni dolorem voluptate recusandae</p>
+									<p class="white">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+									<a href="#">
+			                            <button class="button">View Now</button>
+			                        </a>
+										
+								</div>
+							</div>
+							
+							
+						</div>
+    				</div>
+    				<div class="carousel-item bggreen py-5">
+						<div class="row container mx-auto">
+                            <div class="col-lg-6 my-5">
+								<div class="sliderdiv d-flex justify-content-center">
+                                    <img src="asset/images/Home/image3.jpg" class="w-75" alt="Slider Image 1">
+                                </div>
+							</div>
+							<div class="col-lg-6 my-5 pt-lg-5">
+								<div>
+									<h1 class="heading2">Alama Iqbal</h1>
+									<p class="white">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur magni dolorem voluptate recusandae</p>
+									<p class="white">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+									<a href="#">
+			                            <button class="button">View Now</button>
+			                        </a>
+									
+								</div>
+							</div>
+							
+							
+						</div>
+    				</div>
+    				<div class="carousel-item bggreen py-5">
+						<div class="row container mx-auto">
+                            <div class="col-lg-6 my-5">
+								<div class="sliderdiv d-flex justify-content-center">
+                                    <img src="asset/images/Home/image4.jpg" class="w-75" alt="Slider Image 1">
+                                </div>
+							</div>
+							<div class="col-lg-6 my-5 pt-lg-5">
+								<div>
+									<h1 class="heading2">Our Vision</h1>
+									<p class="white">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur magni dolorem voluptate recusandae</p>
+									<p class="white">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+									<a href="#">
+			                            <button class="button">View Now</button>
+			                        </a>
+
+								</div>
+							</div>
+							
+							
+						</div>
+    				</div>
+  				</div>
+  				<button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+    				<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    				<span class="visually-hidden">Previous</span>
+  				</button>
+  				<button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+    				<span class="carousel-control-next-icon" aria-hidden="true"></span>
+    				<span class="visually-hidden">Next</span>
+  				</button>
+			</div>
+		</div>
+	</section>
+<!--	Section 5 End		-->
+	
+	
+<!--	section 6 Strat-->
+	<section>
+		<div class="container">
+			<h1 class="heading2 text-center my-5 black">Latest News</h1>
+			<!-- <p class="text-center">
+				<img src="asset/icons/hat red.svg" alt="Hat Icon" width="50px" class="mb-5">
+			</p> -->
+			<div class="row mx-auto">
+				<div class="col-lg-3 col-md-6 col-sm-12 my-3">
+					<div class="border" >
+						<img src="asset/images/News/5.jpg" alt="" class="w-100">
+						<div class="px-3 bgwhite py-3 rounded-bottom">
+							<div>
+								<p class="paragraph">
+									<a href="#" class="text-decoration-none fw-bold">Lorem ipsum dolor sit amet, consectetur adipisicing elit</a>
+								</p>
+								
+							</div>
+							<p class="paragraph">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto, nobis, excepturi? S</p>
+							<div class="text-center">
+	                        	<a href="blog.html">
+		                            <button class="button">View Now</button>
+		                        </a>
+	                        </div>
+							
+						</div>
+						
+					</div>
+				</div>
+
+                <div class="col-lg-3 col-md-6 col-sm-12 my-3">
+					<div class="border" >
+						<img src="asset/images/News/6.jpg" alt="" class="w-100">
+						<div class="px-3 bgwhite py-3 rounded-bottom">
+							<div>
+								<p class="paragraph">
+									<a href="#" class="text-decoration-none fw-bold">Lorem ipsum dolor sit amet, consectetur adipisicing elit</a>
+								</p>
+								
+							</div>
+                            <p class="paragraph">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto, nobis, excepturi? S</p>
+                            <div class="text-center">
+	                        	<a href="blog.html">
+		                            <button class="button">View Now</button>
+		                        </a>
+	                        </div>
+							
+						</div>
+						
+					</div>
+				</div>
+
+                <div class="col-lg-3 col-md-6 col-sm-12 my-3">
+					<div class="border" >
+						<img src="asset/images/News/7.jpg" alt="" class="w-100">
+						<div class="px-3 bgwhite py-3 rounded-bottom">
+							<div>
+								<p class="paragraph">
+									<a href="#" class="text-decoration-none fw-bold">Lorem ipsum dolor sit amet, consectetur adipisicing elit</a>
+								</p>
+								
+							</div>
+                            <p class="paragraph">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto, nobis, excepturi? S</p>
+                            <div class="text-center">
+	                        	<a href="blog.html">
+		                            <button class="button">View Now</button>
+		                        </a>
+	                        </div>
+							
+						</div>
+						
+					</div>
+				</div>
+
+                <div class="col-lg-3 col-md-6 col-sm-12 my-3">
+					<div class="border" >
+						<img src="asset/images/News/8.jpg" alt="" class="w-100">
+						<div class="px-3 bgwhite py-3 rounded-bottom">
+							<div>
+								<p class="paragraph">
+									<a href="#" class="text-decoration-none fw-bold">Lorem ipsum dolor sit amet, consectetur adipisicing elit</a>
+								</p>
+								
+							</div>
+                            <p class="paragraph">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto, nobis, excepturi? S</p>
+                            <div class="text-center">
+	                        	<a href="blog.html">
+		                            <button class="button">View Now</button>
+		                        </a>
+	                        </div>
+							
+						</div>
+						
+					</div>
+				</div>
+
+			</div>
+		</div>
+	</section>
+<!--	section 6 End-->
+	
+	
+<!--	Section 7 Start-->
+	<section>
+		<div class="container my-5">
+			<div class="row ">
+				<h1 class="heading2 text-center black">NewsLetter</h1>
+				<p class="paragraph text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis</p>
+				
+				<div class="col-lg-6 col-sm-12 mx-auto mt-3 mb-5">
+					<form action="">
+						<div class="input-group">
+							<input type="email" placeholder="Enter Email Address" class="form-control">
+							<input type="submit" value="Submit" class="button ms-1">
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+	</section>
+<!--	Section 7 End-->
+	
+<!--	Footer Start 	-->
+<footer class="bgblack">
+	<div class="container py-5">
+		<div class="row white">
+			
+			<div class="col-lg-3 col-md-6 col-sm-12">
+				<h3 class="mb-5 text-uppercase heading2">Our Courses</h3>
+				<div>
+					<ul>
+						<li class="my-2">
+							<a href="courses.html" class="white text-decoration-none">Web Development</a>
+						</li>
+						
+						<li class="my-2">
+							<a href="courses.html" class="white text-decoration-none">Android Development</a>
+						</li>
+						
+						<li class="my-2">
+							<a href="courses.html" class="white text-decoration-none">Graphic Designing</a>
+						</li>
+						
+						<li class="my-2">
+							<a href="courses.html" class="white text-decoration-none">UI UX Designer</a>
+						</li>
+						
+						<li class="my-2">
+							<a href="courses.html" class="white text-decoration-none">Microsoft Office</a>
+						</li>
+						
+					</ul>
+				</div>
+			</div>
+			
+			<div class="col-lg-3 col-md-6 col-sm-12">
+				<h3 class="mb-5 text-uppercase heading2">Information</h3>
+				<div>
+					<ul>
+						<li class="my-2">
+							<a href="#" class="white text-decoration-none">Policy & Support</a>
+						</li>
+						
+						<li class="my-2">
+							<a href="#" class="white text-decoration-none">Scholorship Program</a>
+						</li>
+						
+						<li class="my-2">
+							<a href="#" class="white text-decoration-none">Career Oppertunites</a>
+						</li>
+						
+						<li class="my-2">
+							<a href="#" class="white text-decoration-none">Student Affars</a>
+						</li>
+						
+						<li class="my-2">
+							<a href="#" class="white text-decoration-none">Conference & Events</a>
+						</li>
+						
+						<li class="my-2">
+							<a href="FAQs.html" class="white text-decoration-none">FAQs</a>
+						</li>
+						
+					</ul>
+				</div>
+			</div>
+			
+			<div class="col-lg-3 col-md-6 col-sm-12">
+				<h3 class="mb-5 text-uppercase heading2">Contact Info</h3>
+				<p class="paragraph  pe-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati pariatur debitis commodi veritatis quidem doloremque.</p>
+				<div>
+					<div class="my-3">
+						<a href="#" class="text-decoration-none white">
+							<img src="asset/icons/email.svg" alt="Email Icon" class="icon me-2">
+							yammybajwa09@gmail.com
+						</a>
+					</div>
+					
+					<div class="my-3">
+						<a href="#" class="text-decoration-none white">
+							<img src="asset/icons/location.svg" alt="Address Icon" class="icon me-2">
+							Allision Block, Sanjose
+						</a>
+					</div>
+					
+					<div class="my-3">
+						<a href="#" class="text-decoration-none white">
+							<img src="asset/icons/phone.svg" alt="Phone Icon" class="icon me-2">
+							0300-0000000
+						</a>
+					</div>
+				</div>
+			</div>
+			
+			<div class="col-lg-3 col-md-6 col-sm-12">
+				<h3 class="mb-5 text-uppercase heading2">Instagram</h3>
+				<div>
+					<div class="row">
+						<div class="col-4 mb-3">
+							<a href="#">
+								<img src="asset/images/Home/image1.jpg" alt="" class="w-100">
+							</a>
+						</div>
+						
+						<div class="col-4 mb-3">
+							<a href="#">
+								<img src="asset/images/Home/image2.jpg" alt="" class="w-100">
+							</a>
+						</div>
+						
+						<div class="col-4 mb-3">
+							<a href="#">
+								<img src="asset/images/Home/image3.jpg" alt="" class="w-100">
+							</a>
+						</div>
+						
+					</div>
+					
+					<div class="row">
+						<div class="col-4 mb-3">
+							<a href="#">
+								<img src="asset/images/Home/image4.jpg" alt="" class="w-100">
+							</a>
+						</div>
+						
+						<div class="col-4 mb-3">
+							<a href="#">
+								<img src="asset/images/Home/image5.jpg" alt="" class="w-100">
+							</a>
+						</div>
+						
+						<div class="col-4 mb-3">
+							<a href="#">
+								<img src="asset/images/Home/image6.jpg" alt="" class="w-100">
+							</a>
+						</div>
+						
+					</div>
+				</div>
+			</div>
+			
+		</div>
+		<hr class="white">
+		
+		<section>
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-6 col-md-6">
+						<p class="white">Copyright <img src="asset/icons/copyright.svg" alt="" class="icon mx-1">yammybajwa09 @ 2021</p>
+					</div>
+					<div class="col-lg-6 col-md-6 text-lg-end text-md-end">
+						<a href="https://www.facebook.com/" target="_blank" class="text-decoration-none">
+							<img src="asset/icons/facebook.svg" alt="Facebook Icon" class="icon">
+						</a>
+				
+						<a href="https://www.instagram.com/" target="_blank" class="text-decoration-none">
+							<img src="asset/icons/instagram.svg" alt="Instagram Icon" class="icon">
+						</a>
+				
+						<a href="https://twitter.com/?lang=en" target="_blank" class="text-decoration-none">
+							<img src="asset/icons/twitter.svg" alt="Tweeter Icon" class="icon">
+						</a>
+				
+						<a href="https://pk.linkedin.com/" target="_blank" class="text-decoration-none">
+							<img src="asset/icons/linkedin.svg" alt="Linked In Icon" class="icon">
+						</a>
+					</div>
+				</div>
+			</div>
+		</section>
+	</div>
+</footer>
+<!--	Footer End		-->
+
+<!-- Loader Code Start -->
+<script>
+	var preloader = document.getElementById("loading");
+	function loader(){
+		preloader.style.display = 'none';
+	};
+</script>
+<!--	Loader Code End-->
+	
+	
+<!--	Number CountUp Code Start-->
+	<script>
+    $(document).ready(function( $ ) {
+        $('.count').counterUp({
+            delay: 5,
+            time: 3000
+        });
+    });
+	</script>
+<!--	Number CountUp Code End-->
+	
+	
+    <script src="js/bootstrap.min.js"></script>
+	
+	
+	
+
+</body>
+</html>

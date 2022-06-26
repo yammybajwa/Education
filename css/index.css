@@ -1,0 +1,21 @@
+.section1{
+	width: 100%;
+	min-height: 100vh;
+	background: linear-gradient( to left, rgba(0, 0, 50, .5), rgba( 0, 0, 50,.5)), url("../asset/images/Home/image10.jpg");
+	background-size: 100% 100vh;
+	background-repeat: no-repeat;
+}
+
+.section4{
+	background: var(--blue);
+	padding: 20px 0px;
+}
+
+
+
+
+
+
+
+
+
